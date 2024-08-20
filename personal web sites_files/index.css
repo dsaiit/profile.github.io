@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f5f5;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .left {
+  width: 15%;
+  min-width: 200px;
+}
+.container .left .userInfo-img {
+  width: 100%;
+}
+.container .left .userInfo-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.container .left .tabs {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #3a3a35;
+}
+.container .left .tabs .tab {
+  color: #fff;
+  border-top: 1px solid red;
+  width: 100%;
+  border: none;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.container .left .tabs .tab:hover {
+  font-weight: 700;
+  background-color: #75283b;
+}
+.container .right {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 80%;
+}
+.userInfo-style > h3 {
+  font-weight: 600;
+  color: #222;
+  line-height: 30px;
+}
+.userInfo-style > p {
+  line-height: 35px;
+  color: #3a3a35;
+}
+.userInfo-style .email {
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 200px;
+  padding: 10px;
+}
+.userInfo-style > .contact {
+  margin: 20px;
+}
+.about-item {
+  margin-bottom: 20px;
+}
+.about-item .about-item-title {
+  font-size: 20px;
+  font-weight: 300;
+  border-bottom: 1px solid #3a3a35;
+}
+.about-item .about-item-content {
+  margin-left: 40px;
+}
+.about-item .about-item-content > li {
+  line-height: 35px;
+}
+.about-item .about-item-content > li a {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}
+.about-item .about-item-content > li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.about-item .about-item-content .about-item-Subcontent {
+  margin-left: 40px;
+  line-height: 35px;
+}
+.about-item .about-item-content .about-item-Subcontent > li a {
+  font-size: 12px;
+  font-weight: bold;
+}
+.publications-container .publications-title {
+  font-size: 20px;
+  font-weight: 300;
+  border-bottom: 1px solid #3a3a35;
+}
+.publications-container .publications-item {
+  margin-left: 40px;
+}
+.publications-container .publications-item li {
+  line-height: 40px;
+  font-size: 16px;
+}
+.publications-container .publications-content {
+  margin-left: 20px;
+}
+.publications-container .publications-content > li {
+  line-height: 35px;
+}
+.public-container .public-item {
+  margin-bottom: 30px;
+}
+.public-container .public-item .public-item-title {
+  font-size: 20px;
+  font-weight: 300;
+  border-bottom: 1px solid #3a3a35;
+}
+.public-container .public-item .public-content {
+  margin-left: 20px;
+}
+.public-container .public-item .public-content > li {
+  line-height: 35px;
+  color: #3a3a35;
+  font-weight: normal;
+}
+.public-container .public-item .public-content > li a {
+  color: #000;
+}
+.public-container .public-item .public-content > li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.code-container .code-list {
+  margin-bottom: 30px;
+}
+.code-container .code-list .code-title {
+  font-size: 20px;
+  font-weight: 300;
+  border-bottom: 1px solid #3a3a35;
+}
+.code-container .code-list .code-item {
+  margin-left: 30px;
+}
+.code-container .code-list .code-item li {
+  margin-top: 10px;
+}
+.code-container .code-list .code-item p {
+  margin-top: 10px;
+}
+.content .panel {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+.panel.active {
+  display: block;
+}
